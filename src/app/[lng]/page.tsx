@@ -21,7 +21,7 @@ export default async function Page({ params }: PageProps) {
           <div className="text-2xl p-4">Alejandro Ontiveros</div>
           <Navbar />
         </div>
-        <LastWorks />
+        <LastWorks lng={lng} />
       </div>
     </>
   );
