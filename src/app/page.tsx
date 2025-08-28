@@ -2,7 +2,8 @@
 import { getUserLanguage } from "@/lib/getuserLanguage";
 import { redirect } from "next/navigation";
 
-export default function RootPage() {
-  const lng = getUserLanguage();
-  redirect(`/${lng}`);
+export default async function RootPage() {
+const lang = await getUserLanguage();
+
+  redirect(`/${lang}`);
 }

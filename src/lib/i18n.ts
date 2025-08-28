@@ -1,4 +1,4 @@
-export function getDirection(lng: string | undefined): "ltr" | "rtl" {
-  if (!lng) return "ltr"; // fallback estable
+export function getDirection(lng?: string): "ltr" | "rtl" {
+  if (!lng) return "ltr";
   return ["ar", "he", "fa"].includes(lng) ? "rtl" : "ltr";
 }

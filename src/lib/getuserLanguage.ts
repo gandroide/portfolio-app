@@ -6,8 +6,8 @@ const languages = [fallbackLng, "es", "pt"];
 
 acceptLanguage.languages(languages);
 
-export function getUserLanguage() {
-  const headersList = headers();
+export async function getUserLanguage() {
+  const headersList = await headers(); // 👈 usar await
   const langHeader = headersList.get("accept-language");
   return acceptLanguage.get(langHeader) || fallbackLng;
 }
