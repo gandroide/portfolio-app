@@ -1,13 +1,13 @@
 "use client";
-import React, { FC } from "react";
+import React, { FC, use } from "react";
 import { useTranslation } from "../../app/i18n";
 
 type LastWorksProps = {
   lng: string;
 };
 
-const LastWorks: FC<LastWorksProps> = async ({ lng }) => {
-  const { t } = await useTranslation(lng);
+const LastWorks: FC<LastWorksProps> = ({ lng }) => {
+  const { t } = use(useTranslation(lng));
 
   return (
     <section className="flex-1 flex flex-col items-center px-4 text-center">
