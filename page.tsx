@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useTranslation } from "../i18n";
-import Navbar from "@/components/navbar/Navbar";
-import LastWorks from "@/components/lastWorks/LastWorks";
+import Navbar from "@/app/[lng]/components/navbar/Navbar";
+import LastWorks from "@/app/[lng]/components/lastWorks/LastWorks";
 import { redirect } from "next/navigation";
 
 type PageProps = {
@@ -10,5 +10,4 @@ type PageProps = {
   };
 };
 
-export default function Home() {
-}
+export default function Home() {}

@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@radix-ui/react-aspect-ratio": "^1.1.7",
     "@radix-ui/react-navigation-menu": "^1.2.14",
     "accept-language": "^3.0.20",
     "class-variance-authority": "^0.7.1",

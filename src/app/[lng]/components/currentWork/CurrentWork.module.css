@@ -1,0 +1,9 @@
+.container {
+  display: flex; /* flex */
+  align-items: center; /* items-center */
+  justify-content: center; /* justify-center */
+  gap: 2rem; /* gap-8 */
+  padding: 2rem; /* p-8 */
+  background-color: #fbfbfb; /* bg-gray-50 */
+  height: 90vh;
+}

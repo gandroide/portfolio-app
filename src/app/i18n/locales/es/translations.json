@@ -1,4 +1,10 @@
 {
   "title": "Últimos Trabajos",
-  "to-second-page": "Una sección de mis fotografias mas recientes, explorando la relacion entre el cuerpo y la roca, la memoria y el territorio."
+  "to-second-page": "Una sección de mis fotografias mas recientes, explorando la relacion entre el cuerpo y la roca, la memoria y el territorio.",
+  "navbar": {
+    "home": "Inicio",
+    "books": "Libros",
+    "about": "Sobre mi",
+    "contact": "Contacto"
+  }
 }
