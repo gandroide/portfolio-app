@@ -8,6 +8,7 @@ type LastWorksProps = {
 
 const LastWorks: FC<LastWorksProps> = async ({ lng }) => {
   const { t } = await useTranslation(lng);
+
   return (
     <section className="flex-1 flex flex-col items-center px-4 text-center">
       <h1 className="text-5xl py-8 font-bold">{t("title")}</h1>
