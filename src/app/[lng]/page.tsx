@@ -18,7 +18,7 @@ export default async function Page({ params }: PageProps) {
       <Link href={`/${lng}/second-page`}>{t("second-page")}</Link>
       <div className="flex flex-col justify-center w-full h-screen">
         <div className="flex items-start justify-between p-2">
-          <div className="text-2xl p-4">Alejandro Ontiveros</div>
+          <div className="text-2xl p-4">Alejandro Ontiveros TEST</div>
           <Navbar />
         </div>
         <LastWorks lng={lng} />
